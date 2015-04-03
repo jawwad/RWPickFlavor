@@ -4,4 +4,5 @@ use_frameworks!
 target 'RWPickFlavor' do
   pod 'Alamofire', '~> 1.2.0'
   pod 'MBProgressHUD', '~> 0.9'
+  pod 'BetterBaseClasses', '~> 1.0'
 end
