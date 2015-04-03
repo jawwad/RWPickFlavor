@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author = { "Jawwad Ahmad" => "jawwad44@gmail.com" }
 
   # 5 - Replace this URL with your own Github page's URL (from the address bar)
-  s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
+  s.homepage = "https://github.com/jawwad/RWPickFlavor"
 
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
   s.source = { :git => "https://github.com/jawwad/RWPickFlavor.git", :tag => "#{s.version}"}
