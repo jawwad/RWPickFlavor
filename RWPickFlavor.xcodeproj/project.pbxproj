@@ -87,6 +87,11 @@
 		5C01673B1ACE4F2100617D91 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				5C0167551ACE529000617D91 /* Categories */,
+				5C0167571ACE529B00617D91 /* Controllers */,
+				5C0167581ACE529F00617D91 /* Factories */,
+				5C0167591ACE52A400617D91 /* Models */,
+				5C01675A1ACE52A900617D91 /* Views */,
 				5C01673E1ACE4F2100617D91 /* RWPickFlavor.h */,
 				5C01673C1ACE4F2100617D91 /* Supporting Files */,
 			);
@@ -118,7 +123,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DE36E6AA8758EF1A4CB63A5A /* Frameworks */ = {
+		5C0167551ACE529000617D91 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		5C0167571ACE529B00617D91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5C0167581ACE529F00617D91 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		5C0167591ACE52A400617D91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5C01675A1ACE52A900617D91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C01675B1ACE52AD00617D91 /* Ice Cream */,
+				5C01675C1ACE52B300617D91 /* Storyboards & Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5C01675B1ACE52AD00617D91 /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		5C01675C1ACE52B300617D91 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		5D5BB477A26576B565FE495F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F25935B32FBB8FA764641425 /* Pods-RWPickFlavor.debug.xcconfig */,
+				7D22FCF8B2A1B3FE96C4BF66 /* Pods-RWPickFlavor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94945AD7842D8AA9D7B56072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9526C37209ED9ABE5F7C7552 /* Pods_RWPickFlavor.framework */,
