@@ -20,6 +20,7 @@
 		5C01676B1ACE533900617D91 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0167681ACE533900617D91 /* ScoopCell.swift */; };
 		5C01676C1ACE533900617D91 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0167691ACE533900617D91 /* ScoopView.swift */; };
 		5C01676E1ACE534800617D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C01676D1ACE534800617D91 /* Main.storyboard */; };
+		5C0167711ACE570200617D91 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0167701ACE570200617D91 /* background.jpg */; };
 		6C995FE149ADA6F45946ADFF /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E4ABC41B558226E890FA5 /* Pods_RWPickFlavor.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		5C0167681ACE533900617D91 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
 		5C0167691ACE533900617D91 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
 		5C01676D1ACE534800617D91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C0167701ACE570200617D91 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		7D22FCF8B2A1B3FE96C4BF66 /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		F25935B32FBB8FA764641425 /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 				5C0167581ACE529F00617D91 /* Factories */,
 				5C0167591ACE52A400617D91 /* Models */,
 				5C01675A1ACE52A900617D91 /* Views */,
+				5C01676F1ACE55E300617D91 /* Resources */,
 				5C01673E1ACE4F2100617D91 /* RWPickFlavor.h */,
 				5C01673C1ACE4F2100617D91 /* Supporting Files */,
 			);
@@ -202,6 +205,14 @@
 				5C01676D1ACE534800617D91 /* Main.storyboard */,
 			);
 			name = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		5C01676F1ACE55E300617D91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C0167701ACE570200617D91 /* background.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5D5BB477A26576B565FE495F /* Pods */ = {
@@ -315,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C01676E1ACE534800617D91 /* Main.storyboard in Resources */,
+				5C0167711ACE570200617D91 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
