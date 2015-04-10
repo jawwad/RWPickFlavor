@@ -36,7 +36,7 @@ class PickFlavorDataSource: NSObject, UICollectionViewDataSource {
   }
   private func scoopCellAtIndexPath(indexPath: NSIndexPath) -> UICollectionViewCell {
    
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(Identifiers.ScoopCell, forIndexPath: indexPath) as ScoopCell
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(Identifiers.ScoopCell, forIndexPath: indexPath) as! ScoopCell
     configureScoopCell(cell, atIndexPath: indexPath)
     return cell
   }

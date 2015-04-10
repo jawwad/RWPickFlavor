@@ -16,7 +16,7 @@ class FlavorFactory {
     let data = NSData(contentsOfFile: path)!
 
     let options = Int(NSPropertyListMutabilityOptions.Immutable.rawValue)
-    let array = NSPropertyListSerialization.propertyListWithData(data, options: options, format: nil, error: nil) as [[String: String]]!
+    let array = NSPropertyListSerialization.propertyListWithData(data, options: options, format: nil, error: nil) as! [[String: String]]!
     
     return flavorsFromDictionaryArray(array)
   }

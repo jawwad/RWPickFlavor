@@ -22,7 +22,7 @@ public class PickFlavorViewController: UIViewController, UICollectionViewDelegat
   }
   
   private var pickFlavorDataSource: PickFlavorDataSource? {
-    return collectionView?.dataSource as PickFlavorDataSource?
+    return collectionView?.dataSource as! PickFlavorDataSource?
   }
   
   private let flavorFactory = FlavorFactory()

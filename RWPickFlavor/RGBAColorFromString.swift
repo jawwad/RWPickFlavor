@@ -22,7 +22,7 @@ extension UIColor {
     
     if let string = string {
       
-      var components = (string as NSString).componentsSeparatedByString(",") as [NSString]
+      var components = (string as NSString).componentsSeparatedByString(",") as! [NSString]
       
       if components.count == 3 {
         components.append("1.0")
