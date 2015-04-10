@@ -94,7 +94,6 @@
 				5C0167481ACE4F2100617D91 /* RWPickFlavorTests */,
 				5C01673A1ACE4F2100617D91 /* Products */,
 				3887140AB02AD34FDD2B4B41 /* Pods */,
-				DE36E6AA8758EF1A4CB63A5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
